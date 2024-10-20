@@ -8,7 +8,7 @@ public class Ejercicio2 {
         Scanner scanner = new Scanner(System.in);
 
         try {
-            System.out.print("Introduce el nombre del fichero de donde se leerán los alumnos: ");
+            System.out.print("Introduce el nombre del fichero");
             String nombreFichero = scanner.nextLine();
 
             FileInputStream fis = new FileInputStream(nombreFichero);
